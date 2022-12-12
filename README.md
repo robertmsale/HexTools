@@ -1,3 +1,3 @@
 # HexTools for Alfred
 
-[example.gif]()
+![example](https://raw.githubusercontent.com/robertmsale/HexTools/main/example.gif)
