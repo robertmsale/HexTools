@@ -36,6 +36,8 @@ def createFromInt(num):
     retval = []
     for i in range(0, len(strings)):
         retval.append(createAlfredObject(strings[i], subtitles[i], strings[i]))
+    bitcount = str(len(strings[2]) - 2)
+    retval.append(createAlfredObject(bitcount, "Bit Count", bitcount))
     return createAlfredJSON(retval)
 
 
